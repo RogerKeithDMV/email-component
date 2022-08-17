@@ -13,9 +13,9 @@
     }
   },
   "actions": {
-    "getDataAction": {
-      "title": "Send information to another proccess",
-      "main": "./lib/actions/testAction.js"
+    "sftp": {
+      "title": "Email Component",
+      "main": "./lib/actions/email.js"
     }
   }
 }
