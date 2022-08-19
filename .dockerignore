@@ -4,4 +4,3 @@ node_modules
 .env.local
 test/
 logs/
-TestEdi.postman_collection.json

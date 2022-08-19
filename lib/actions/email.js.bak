@@ -4,13 +4,13 @@ const {email} = require('email-cg-lib');
 const {emits} = constants;
 
 /**
- * Method for email connections
+ * Method for sftp connections
  * @param msg
  * @param cfg
  * @param snapshot
  * @returns {Promise<void>}
  */
- module.exports.process = async function emailProcess(msg, cfg, snapshot = {}) {
+ module.exports.process = async function sftpProcess(msg, cfg, snapshot = {}) {
     try {
         const _data = await email(msg, cfg);
         this.emit(emits.data, {data: _data});
